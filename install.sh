@@ -41,15 +41,15 @@ echo ===== Finish installation of brew =====
 
 # install via App Store
 ## install RunCat
-echo ===== Start installation of visual-studio-code =====
+echo ===== Start installation of RunCat =====
 mas "RunCat", id: 1429033973
-echo ===== Finish installation of visual-studio-code ===== 
+echo ===== Finish installation of RunCat ===== 
 
 ## install Xcode
-echo ===== Start installation of visual-studio-code =====
+echo ===== Start installation of Xcode =====
 mas "Xcode", id: 497799835
 sudo xcodebuild -license accept
-echo ===== Finish installation of visual-studio-code ===== 
+echo ===== Finish installation of Xcode ===== 
 
 # install visual-studio-code extensions
 echo ===== Start installation of visual-studio-code-extensions =====
