@@ -19,6 +19,14 @@ Brewfile の読込みや VSCode の拡張などをインストールするスク
 
 ## 使用方法
 
-git clone https://github.com/hiroaki-saito/automation-development-environment-construction.git
+git clone の実行
 
+```
+git clone https://github.com/hiroaki-saito/automation-development-environment-construction.git
+```
+
+clone したファイルのルートディレクトリのシェルを実行
+
+```
 ./automation-development-environment-construction/install.sh
+```
