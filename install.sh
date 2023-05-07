@@ -1,12 +1,14 @@
 # !/bin/bash
 
 # create .zshprofile and .zshrc
-[ -f ~/.zshprofile ] || touch ~/.zshprofile
+[ -f ~/.zprofile ] || touch ~/.zprofile
 [ -f ~/.zshrc ] || touch ~/.zshrc
 
 # install brew
 echo ===== Start installation of brew =====
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+(echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> /Users/$USER/.zprofile
+eval "$(/opt/homebrew/bin/brew shellenv)"
 echo ===== Finish installation of brew =====
 
 # brew install mas

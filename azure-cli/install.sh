@@ -1,8 +1,8 @@
 # !/bin/bash
 
-echo ===== Start installation of aure-cli =====
+echo ===== Start installation of azure-cli =====
 
 # install via brew
-brew bundle --file=./aure-cli/Brewfile
+brew bundle --file=./azure-cli/Brewfile
 
-echo ===== Finish installation of aure-cli ===== 
+echo ===== Finish installation of azure-cli ===== 
